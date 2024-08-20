@@ -14,6 +14,10 @@ module.exports = {
         },
         speGray: '#F4F7FD',
       },
+
+      fontFamily: {
+        sans: ['Roboto', 'sans-serif']
+      }
     },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
